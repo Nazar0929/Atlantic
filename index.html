@@ -10,6 +10,15 @@
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Russo+One&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/style.css">
 </head>
+<div id="myModal" class="modal">
+    <div class="modal-content">
+        <span class="close">&times;</span>
+        <p>Вхід до кабінету</p>
+        <input type="email" placeholder="Email">
+        <input type="password" placeholder="Пароль">
+        <button type="button"><p>Вхід</p></button>
+    </div>
+</div>
 <body>
     <header class="header">
         <div class="container parent">
@@ -27,7 +36,7 @@
         <img src="./img/logo.png" alt="logo" class="photo-logo">
         <ul class="list-content">
             <li><img src="./img/iconenter.png" alt="" class="content-img"></li>
-            <li><p class="content-text">Реєстрація
+            <li><p  id="openModalBtn" class="content-text">Реєстрація
                 /
                 Вхід</p></li>
         </ul>
@@ -39,13 +48,13 @@
     </header>
     <section class="nav-section">
         <ul class="nav-list">
-            <li class="nav-li"><p class="text-caption">Каталог товарів</p></li>
-            <li class="nav-li"><p class="text-caption">Система знижок</p></li>
-            <li class="nav-li"><p class="text-caption">Дропшипінг</p></li>
-            <li class="nav-li"><p class="text-caption">Доставка і оплата</p></li>
-            <li class="nav-li"><p class="text-caption">Акції</p></li>
-            <li class="nav-li"><p class="text-caption">Контакти</p></li>
-            <li class="nav-li"><p class="text-caption">Про нас</p></li>
+            <li class="nav-li"><a href="" class="text-caption">Каталог товарів</a></li>
+            <li class="nav-li"><a href="./pages/discount.html" class="text-caption">Система знижок</a></li>
+            <li class="nav-li"><a href="" class="text-caption">Дропшипінг</a></li>
+            <li class="nav-li"><a href="" class="text-caption">Доставка і оплата</a></li>
+            <li class="nav-li"><a href="" class="text-caption">Акції</a></li>
+            <li class="nav-li"><a href="./pages/contact.html" class="text-caption">Контакти</a></li>
+            <li class="nav-li"><a href="./pages/about.html" class="text-caption">Про нас</a></li>
         </ul>
     </section>
     <section class="main-section">
@@ -176,5 +185,6 @@
         </ul>
         </div>
     </footer>
+    <script src="./js/scripts.js"></script>
 </body>
 </html>
