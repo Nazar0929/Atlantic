@@ -178,7 +178,10 @@ h1, h2, h3, p, ul{
 .section-main {
     padding-top: 20px;
     padding-bottom: 133px;
-    background-image: url(../img/backgro.jpg);
+    background-image: url(../img/black.png), url(../img/banka.png);
+    background-repeat: no-repeat;
+    background-position: left,right;
+    background-size: 1658px 320px, 720px 320px;
 }
 
 .list-main {
@@ -216,59 +219,49 @@ h1, h2, h3, p, ul{
     line-height: 1.1;
 }
 
-.section-hero {
+.sec-lol {
+    display: flex;
     padding: 60px 222px;
+    align-items: flex-start;
+    gap: 130px;
+    background: #EFEFEF;
+}
+
+.lolo {
+    display: flex;
     flex-direction: column;
     align-items: flex-start;
-    background: var(--footer-clock);
+    gap: 20px;
 }
 
-.list-money {
-    flex-direction: column;
-    align-items: flex-start;
+.dcd {
+    color: #283761;
+    font-family: Play;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.5;
 }
 
-.li-money {
-    margin-bottom: 20px;
-}
-
-.li-money:last-child {
-    margin-bottom: 0px;
-}
-
-.p-text {
-    width: 711px;
+.erv {
+    width: 418px;
     color: #666;
     font-family: Play;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
-    line-height: 24px; /* 150% */
+    line-height: 1.5;
 }
 
-.list-discount-ul {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 12px;
-    margin-top: 12px;
-}
-
-.li-discountt {
-    display: flex;
-    gap: 16px;
-}
-
-.so-p {
+.ervv {
+    width: 528px;
     color: #666;
     font-family: Play;
-    font-size: 14px;
+    font-size: 16px;
     font-style: normal;
     font-weight: 400;
-    line-height: 1.42;
-    margin-top: 20px;
+    line-height: 1.5;
 }
-
 
 .section-question {
     padding-top: 100px;
@@ -559,4 +552,5 @@ h1, h2, h3, p, ul{
     display: flex;
     gap: 15.23px;
 }
+
 

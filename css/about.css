@@ -402,7 +402,7 @@ h1, h2, h3, p, ul{
 }
 
 .text-foote {
-    color: var(--text-);
+    color: var(--text);
     font-family: "Russo One";
     font-size: 13px;
     font-style: normal;
